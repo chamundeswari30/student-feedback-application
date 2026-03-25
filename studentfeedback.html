@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>College Student Feedback Form</title>
+
+<style>
+
+body{
+font-family:Arial;
+background:linear-gradient(to right,#ffecd2,#fcb69f);
+margin:0;
+}
+
+.page{
+display:none;
+padding:20px;
+}
+
+#page1:target,
+#page2:target,
+#thankyou:target{
+display:block;
+}
+
+#page1{
+display:block;
+}
+
+table{
+background:white;
+width:75%;
+margin:auto;
+padding:20px;
+border-radius:10px;
+}
+
+button{
+padding:12px;
+background:green;
+color:white;
+font-size:16px;
+border:none;
+cursor:pointer;
+}
+
+</style>
+</head>
+
+<body>
+
+<center>
+<h1 style="color:darkblue;">College Student Feedback Form</h1>
+</center>
+
+<!-- PAGE 1 -->
+
+<div id="page1" class="page">
+
+<h2 align="center">Page 1 - First 10 Questions</h2>
+
+<form action="#page2">
+
+<table>
+
+<tr><td>
+1. How do you rate the overall quality of teaching and learning process in the college environment?
+<br><br>
+<input type="radio" name="q1" required> Excellent<br>
+<input type="radio" name="q1"> Good<br>
+<input type="radio" name="q1"> Average<br>
+<input type="radio" name="q1"> Poor
+</td></tr>
+
+<tr><td>
+2. How effectively do teachers explain difficult concepts and subjects in the classroom?
+<br><br>
+<input type="radio" name="q2" required> Excellent<br>
+<input type="radio" name="q2"> Good<br>
+<input type="radio" name="q2"> Average<br>
+<input type="radio" name="q2"> Poor
+</td></tr>
+
+<tr><td>
+3. How punctual and regular are teachers in conducting classes and completing syllabus?
+<br><br>
+<input type="radio" name="q3" required> Excellent<br>
+<input type="radio" name="q3"> Good<br>
+<input type="radio" name="q3"> Average<br>
+<input type="radio" name="q3"> Poor
+</td></tr>
+
+<tr><td>
+4. How do you rate the laboratory facilities and availability of equipment in your department?
+<br><br>
+<input type="radio" name="q4" required> Excellent<br>
+<input type="radio" name="q4"> Good<br>
+<input type="radio" name="q4"> Average<br>
+<input type="radio" name="q4"> Poor
+</td></tr>
+
+<tr><td>
+5. How comfortable and well-maintained are the classrooms and learning environment?
+<br><br>
+<input type="radio" name="q5" required> Excellent<br>
+<input type="radio" name="q5"> Good<br>
+<input type="radio" name="q5"> Average<br>
+<input type="radio" name="q5"> Poor
+</td></tr>
+
+<tr><td>
+6. How effectively is the syllabus covered within the academic schedule?
+<br><br>
+<input type="radio" name="q6" required> Excellent<br>
+<input type="radio" name="q6"> Good<br>
+<input type="radio" name="q6"> Average<br>
+<input type="radio" name="q6"> Poor
+</td></tr>
+
+<tr><td>
+7. How supportive are teachers in clearing doubts and guiding students academically?
+<br><br>
+<input type="radio" name="q7" required> Excellent<br>
+<input type="radio" name="q7"> Good<br>
+<input type="radio" name="q7"> Average<br>
+<input type="radio" name="q7"> Poor
+</td></tr>
+
+<tr><td>
+8. How do you rate the availability of books and study materials in the library?
+<br><br>
+<input type="radio" name="q8" required> Excellent<br>
+<input type="radio" name="q8"> Good<br>
+<input type="radio" name="q8"> Average<br>
+<input type="radio" name="q8"> Poor
+</td></tr>
+
+<tr><td>
+9. How clean and hygienic is the college campus and surroundings?
+<br><br>
+<input type="radio" name="q9" required> Excellent<br>
+<input type="radio" name="q9"> Good<br>
+<input type="radio" name="q9"> Average<br>
+<input type="radio" name="q9"> Poor
+</td></tr>
+
+<tr><td>
+10. How do you rate sports facilities and extracurricular activities in the college?
+<br><br>
+<input type="radio" name="q10" required> Excellent<br>
+<input type="radio" name="q10"> Good<br>
+<input type="radio" name="q10"> Average<br>
+<input type="radio" name="q10"> Poor
+</td></tr>
+
+<tr>
+<td align="center">
+<br>
+<button type="submit">Submit & Go to Next 10 Questions</button>
+</td>
+</tr>
+
+</table>
+</form>
+
+</div>
+
+<!-- PAGE 2 -->
+
+<div id="page2" class="page">
+
+<h2 align="center">Page 2 - Next 10 Questions</h2>
+
+<form action="#thankyou">
+
+<table>
+
+<tr><td>
+11. How effective is the placement and training support provided by the college?
+<br><br>
+<input type="radio" name="q11" required> Excellent<br>
+<input type="radio" name="q11"> Good<br>
+<input type="radio" name="q11"> Average<br>
+<input type="radio" name="q11"> Poor
+</td></tr>
+
+<tr><td>
+12. How do you rate the overall infrastructure and facilities of the college?
+<br><br>
+<input type="radio" name="q12" required> Excellent<br>
+<input type="radio" name="q12"> Good<br>
+<input type="radio" name="q12"> Average<br>
+<input type="radio" name="q12"> Poor
+</td></tr>
+
+<tr><td>
+13. How do you rate internet and computer laboratory facilities?
+<br><br>
+<input type="radio" name="q13" required> Excellent<br>
+<input type="radio" name="q13"> Good<br>
+<input type="radio" name="q13"> Average<br>
+<input type="radio" name="q13"> Poor
+</td></tr>
+
+<tr><td>
+14. How do you rate the quality and hygiene of the college canteen?
+<br><br>
+<input type="radio" name="q14" required> Excellent<br>
+<input type="radio" name="q14"> Good<br>
+<input type="radio" name="q14"> Average<br>
+<input type="radio" name="q14"> Poor
+</td></tr>
+
+<tr><td>
+15. How do you rate transport facilities provided by the college?
+<br><br>
+<input type="radio" name="q15" required> Excellent<br>
+<input type="radio" name="q15"> Good<br>
+<input type="radio" name="q15"> Average<br>
+<input type="radio" name="q15"> Poor
+</td></tr>
+
+<tr><td>
+16. How do you rate hostel facilities and accommodation services?
+<br><br>
+<input type="radio" name="q16" required> Excellent<br>
+<input type="radio" name="q16"> Good<br>
+<input type="radio" name="q16"> Average<br>
+<input type="radio" name="q16"> Poor
+</td></tr>
+
+<tr><td>
+17. How do you rate medical and emergency facilities available on campus?
+<br><br>
+<input type="radio" name="q17" required> Excellent<br>
+<input type="radio" name="q17"> Good<br>
+<input type="radio" name="q17"> Average<br>
+<input type="radio" name="q17"> Poor
+</td></tr>
+
+<tr><td>
+18. How helpful and responsive are student support services and administration?
+<br><br>
+<input type="radio" name="q18" required> Excellent<br>
+<input type="radio" name="q18"> Good<br>
+<input type="radio" name="q18"> Average<br>
+<input type="radio" name="q18"> Poor
+</td></tr>
+
+<tr><td>
+19. How do you rate discipline and overall management of the college?
+<br><br>
+<input type="radio" name="q19" required> Excellent<br>
+<input type="radio" name="q19"> Good<br>
+<input type="radio" name="q19"> Average<br>
+<input type="radio" name="q19"> Poor
+</td></tr>
+
+<tr><td>
+20. Overall, how satisfied are you with your college experience?
+<br><br>
+<input type="radio" name="q20" required> Excellent<br>
+<input type="radio" name="q20"> Good<br>
+<input type="radio" name="q20"> Average<br>
+<input type="radio" name="q20"> Poor
+</td></tr>
+
+<tr>
+<td align="center">
+<br>
+<button type="submit">Submit Feedback</button>
+</td>
+</tr>
+
+</table>
+</form>
+
+</div>
+
+<!-- THANK YOU PAGE -->
+
+<div id="thankyou" class="page">
+
+<center>
+<br><br><br>
+
+<h1 style="color:green;">Thank You for Your Valuable Feedback!</h1>
+
+<h2>Your response has been successfully submitted.</h2>
+
+<h3>We appreciate your time and support.</h3>
+
+<br><br>
+
+<a href="#page1">
+<button>Give Feedback Again</button>
+</a>
+
+</center>
+
+</div>
+
+</body>
+</html>

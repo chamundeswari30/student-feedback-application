@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Feedback Registration Form</title>
+</head>
+
+<body style="background:linear-gradient(to right, #ff9a9e, #fad0c4); font-family:Arial;">
+
+    <center>
+        <h1 style="color:darkblue;">Student Feedback Registration Form</h1>
+    </center>
+
+    <form>
+        <table align="center" cellpadding="10" 
+        style="background-color:white; border-radius:10px;">
+
+            <tr>
+                <td style="color:darkred;">Student Name</td>
+                <td><input type="text" placeholder="Enter your name"></td>
+            </tr>
+
+            <tr>
+                <td style="color:darkgreen;">Register Number</td>
+                <td><input type="text" placeholder="Enter register number"></td>
+            </tr>
+
+            <tr>
+                <td style="color:purple;">Department</td>
+                <td>
+                    <select>
+                        <option>CSE</option>
+                        <option>IT</option>
+                        <option>ECE</option>
+                        <option>EEE</option>
+                        <option>MECH</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td style="color:orange;">Year</td>
+                <td>
+                    <input type="radio" name="year"> 1st Year
+                    <input type="radio" name="year"> 2nd Year
+                    <input type="radio" name="year"> 3rd Year
+                    <input type="radio" name="year"> 4th Year
+                </td>
+            </tr>
+
+            <tr>
+                <td style="color:blue;">Gender</td>
+                <td>
+                    <input type="radio" name="gender"> Male
+                    <input type="radio" name="gender"> Female
+                </td>
+            </tr>
+
+            <tr>
+                <td style="color:brown;">Email</td>
+                <td><input type="email" placeholder="Enter email"></td>
+            </tr>
+
+            <tr>
+                <td style="color:darkcyan;">Mobile</td>
+                <td><input type="text" placeholder="Enter mobile number"></td>
+            </tr>
+
+            <tr>
+                <td style="color:red;">Course</td>
+                <td>
+                    <select>
+                        <option>Python</option>
+                        <option>Java</option>
+                        <option>Data Structures</option>
+                        <option>DBMS</option>
+                        <option>Web Technology</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td style="color:darkmagenta;">Feedback</td>
+                <td>
+                    <textarea rows="4" cols="25" 
+                    placeholder="Enter your feedback"></textarea>
+                </td>
+            </tr>
+
+            <tr>
+                <td style="color:darkgreen;">Rating</td>
+                <td>
+                    <input type="radio" name="rating"> Excellent
+                    <input type="radio" name="rating"> Good
+                    <input type="radio" name="rating"> Average
+                    <input type="radio" name="rating"> Poor
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" value="Submit" 
+                    style="background-color:green; color:white; padding:8px;">
+                    
+                    <input type="reset" value="Reset" 
+                    style="background-color:red; color:white; padding:8px;">
+                </td>
+            </tr>
+
+        </table>
+    </form>
+
+</body>
+</html>
